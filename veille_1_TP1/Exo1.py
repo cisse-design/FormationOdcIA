@@ -4,8 +4,8 @@ def calcul_f(x):
     return (x/(x**2+1))
 
 def calcul_g(x):
-    return math.atan(x)
-
+    x= math.atan(x)
+    return x
 
 N= input("Entrez un nombre : ")
 
